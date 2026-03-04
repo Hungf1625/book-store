@@ -1,0 +1,15 @@
+
+.Modal_header{
+    width: 100%;
+}
+
+.Modal{
+    width: 800px;
+    height: 400px;
+    left: 25%;
+    top: 20%;
+    overflow: hidden;
+    position: fixed;
+    z-index: 9999;
+}
+

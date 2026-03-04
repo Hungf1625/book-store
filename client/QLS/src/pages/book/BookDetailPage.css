@@ -1,0 +1,33 @@
+.BookIMG {
+    width: 500px;
+    height: 500px;
+}
+
+.buynowBtn {
+    margin-top: 4.4px
+}
+
+.book_detail h1 {
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.detail_bottom h1{
+    font-size: larger;
+}
+
+.detail_bottom .BE_rating_score{
+    font-size: xx-large;
+}
+
+.detail_bottom .FE_rating{
+    font-size: x-large;
+}
+
+.information_text{
+    font-size: larger;
+}
+
+
+
+

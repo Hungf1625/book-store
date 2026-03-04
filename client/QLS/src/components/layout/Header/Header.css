@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+.header{
+
+}
+
+.icon_img{
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.navbar{
+    display: flex;
+    
+}
+
+.navitems{
+    padding: 10px;
+    margin: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.navitem_activated{
+    transform: scale(1.10);
+    transition: transform 0.3s ease-in-out;
+    color: green !important; 
+}
+
+.navitems:hover{
+    cursor: pointer;
+    transform: scale(1.10);
+    transition: transform 0.3s ease-in-out;
+    color: green;
+}
+
+.icon_img:hover{
+    cursor: pointer;
+    transform: scale(1.15);
+    transition: transform 0.3s ease-in-out;
+}
+
+.category{
+    display: inline-block;
+    left: 140px;
+    text-align: start;
+}
+
+.category_none{
+    display: none;
+}
+
+.category_item{
+    font-size: large;
+    margin: 2px;
+    width: 100%;
+    padding: 5px;
+}
+
+.category_item:hover{
+    background-color: rgb(193, 255, 193);
+    cursor: pointer;
+}
+
+.accountBtn:hover{
+    cursor: pointer;
+    color: rgb(98, 241, 98);
+}

@@ -1,0 +1,32 @@
+.icon{
+    color: green;
+}
+
+.hp_block > .hp_block_line{
+    padding: 0 16px;
+    background-color: #fff;
+}
+
+.hp_block > .hp_block_line{
+    padding: 16px;
+}
+
+.hp_block > .hp_block_line > div {
+    width: 100%;
+    height: 1px;
+    background-color: #F2F4F5;
+}
+
+.category_content_list::-webkit-scrollbar {
+  display: none;
+}
+
+.category_content_list {
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+
+.category_content_list .flex-col {
+  flex-shrink: 0;
+  min-width: fit-content;
+}
