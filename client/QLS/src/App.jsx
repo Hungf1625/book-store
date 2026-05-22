@@ -1,12 +1,12 @@
 import { Routes, Route } from "react-router-dom";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 
-import HomePage from "./pages/home/home";
+import HomePage from "./pages/client/home/home";
 import ClientLayout from "./layouts/ClientLayout";
 import AdminLayout from "./layouts/AdminLayout";
-import CartPage from "./pages/cart/CartPage";
-import BookDetailPage from "./pages/book/BookDetailPage";
-import CategoryPage from "./pages/category/categoryPage";
+import CartPage from "./pages/client/cart/CartPage";
+import BookDetailPage from "./pages/client/book/BookDetailPage";
+import CategoryPage from "./pages/client/category/categoryPage";
 import "./App.css";
 
 const theme = createTheme();

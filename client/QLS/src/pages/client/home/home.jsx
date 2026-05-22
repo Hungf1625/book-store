@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom";
-import useAutoScroll from "../../hook/useAutoScroll";
+import useAutoScroll from "../../../hook/useAutoScroll";
 
-import icon from "../../assets/maxresdefault.jpg";
-import icon2 from "../../assets/8936130671112.webp";
+import icon from "../../../assets/maxresdefault.jpg";
+import icon2 from "../../../assets/8936130671112.webp";
 import "./homepage.css";
-import ItemsContainer from "../../components/common/ItemsContainer";
-import ProductCard from "../../components/common/ProductCard";
-import Button from "../../components/common/button";
-import CategoryCard from "../../components/common/CategoryCard";
-import PageContainer from "../../components/common/PageContainer";
+import ItemsContainer from "../../../components/common/ItemsContainer";
+import ProductCard from "../../../components/common/ProductCard";
+import Button from "../../../components/common/button";
+import CategoryCard from "../../../components/common/CategoryCard";
+import PageContainer from "../../../components/common/PageContainer";
 
 
 function HomePage() {

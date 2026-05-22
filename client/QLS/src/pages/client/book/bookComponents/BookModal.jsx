@@ -1,5 +1,5 @@
 
-import Modal from "../../../components/common/Modal/Modal"
+import Modal from "../../../../components/common/Modal/Modal"
 import Rating from "@mui/material/Rating";
 import { useState } from "react";
 

@@ -1,6 +1,6 @@
 import Rating from "@mui/material/Rating";
-import Button from "../../../components/common/button";
-import ItemsContainer from "../../../components/common/ItemsContainer";
+import Button from "../../../../components/common/button";
+import ItemsContainer from "../../../../components/common/ItemsContainer";
 
 function BookRatings({setOpenModal}) {
 

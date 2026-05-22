@@ -4,11 +4,11 @@ import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
 import Captions from "yet-another-react-lightbox/plugins/captions";
 import Counter from "yet-another-react-lightbox/plugins/counter";
 import Zoom from "yet-another-react-lightbox/plugins/zoom";
-import Button from "../../components/common/button";
+import Button from "../../../components/common/button";
 
-import PageContainer from "../../components/common/PageContainer";
-import icon from "../../assets/bannerquatang.webp";
-import icon2 from "../../assets/db2c4053daf2ab6068cbbb39b2fcd996.jpg";
+import PageContainer from "../../../components/common/PageContainer";
+import icon from "../../../assets/bannerquatang.webp";
+import icon2 from "../../../assets/db2c4053daf2ab6068cbbb39b2fcd996.jpg";
 import "./BookDetailPage.css";
 import "yet-another-react-lightbox/styles.css";
 import "yet-another-react-lightbox/plugins/thumbnails.css";

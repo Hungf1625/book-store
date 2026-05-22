@@ -1,5 +1,5 @@
-import TableRow from "../../../components/common/TableRow"
-import ItemsContainer from "../../../components/common/ItemsContainer";
+import TableRow from "../../../../components/common/TableRow"
+import ItemsContainer from "../../../../components/common/ItemsContainer";
 
 function BookDetailContent() {
   return (

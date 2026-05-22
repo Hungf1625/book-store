@@ -1,9 +1,9 @@
 import { useState, useMemo, useEffect} from "react";
 import { Link } from "react-router-dom";
 
-import Button from "../../../components/common/button";
-import QuantityCollector from "../../../components/common/QuantitySelector";
-import icon from "../../../assets/maxresdefault.jpg";
+import Button from "../../../../components/common/button";
+import QuantityCollector from "../../../../components/common/QuantitySelector";
+import icon from "../../../../assets/maxresdefault.jpg";
 
 const formatVND = (amount) => {
   return new Intl.NumberFormat("vi-VN", {

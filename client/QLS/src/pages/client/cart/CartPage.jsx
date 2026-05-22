@@ -1,8 +1,8 @@
 import { useState, useCallback } from "react";
 
-import PageContainer from "../../components/common/PageContainer";
+import PageContainer from "../../../components/common/PageContainer";
 import CartItem from "./cartComponents/CartItem";
-import ItemsContainer from "../../components/common/ItemsContainer";
+import ItemsContainer from "../../../components/common/ItemsContainer";
 
 function CartPage() {
   const [checkedItems, setCheckedItems] = useState({});

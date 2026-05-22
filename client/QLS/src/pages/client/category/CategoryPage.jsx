@@ -1,10 +1,10 @@
 import { useState, useMemo, useCallback, useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
 import { Link } from "react-router-dom";
-import PageContainer from "../../components/common/PageContainer";
-import ItemsContainer from "../../components/common/ItemsContainer";
-import ProductCard from "../../components/common/ProductCard";
-import icon from "../../assets/maxresdefault.jpg";
+import PageContainer from "../../../components/common/PageContainer";
+import ItemsContainer from "../../../components/common/ItemsContainer";
+import ProductCard from "../../../components/common/ProductCard";
+import icon from "../../../assets/maxresdefault.jpg";
 import Pagination from "@mui/material/Pagination";
 import CategoryFilter from "./BookFilters/CategoryFilter";
 import AdditionalFilter from "./BookFilters/AdditionalFilter";

@@ -1,4 +1,4 @@
-import ItemsContainer from "../../../components/common/ItemsContainer";
+import ItemsContainer from "../../../../components/common/ItemsContainer";
 
 function BookTransportContent() {
   return (

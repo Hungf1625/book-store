@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
 import { useNavigate, Link } from "react-router-dom";
 
-import icon from "../../../assets/maxresdefault.jpg";
-import "../Header/Header.css";
-import SearchBar from "../../common/searchBar";
-import Button from "../../common/button";
+import icon from "../../../../assets/maxresdefault.jpg";
+import "./Header.css";
+import SearchBar from "../../../common/searchBar";
+import Button from "../../../common/button";
 
 function Header() {
   const [isCategoryHovered, setIsCategoryHovered] = useState(false);
